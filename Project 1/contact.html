@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phil McDonald- contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/955d762632.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+<div class="text-box">
+<h1>Contact Me</h1>
+<p>Writing and recording tunes</p>
+<a href ="https://open.spotify.com/artist/3ybpczIAcijc0vq3ZEvdPe?si=7_qbKFZvRTCmS8SD3KqbsQ&dl_branch=1" class="hero-btn" target="_blank">Listen to my songs</a>
+</div>
+    </section>
+
+<!-- Contact Us -->
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fas fa-envelope"></i>
+                <span>
+                    <h5> <a href="mailto:phil@gmail.com"></a> phil@email.com</h5>
+                </span>
+                
+            </div>
+<div class="contact-col">
+
+    <form action="">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="text" placeholder="Subject" required>
+        <textarea rows="8" placeholder="Message required"></textarea>
+        <button type="submit" class="hero-btn">Send Message</button>
+    </form>
+
+
+        </div>
+    </div>
+
+</section>
+
+<!-- Footer -->
+
+<section
+
+<section class="footer">
+    <h4>Phil McDonald</h4>
+    <p>Musician based in Los Angeles who loves to record, write, and perform.</p>
+    <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+    </div>
+    <p>Made with <i class="fas fa-heart"></i> by Cathy McDonald</p>
+
+</section>
+
+
+<!--Javascript for Mobile Menu-->
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+</script>
+
+</body>
+</html>
